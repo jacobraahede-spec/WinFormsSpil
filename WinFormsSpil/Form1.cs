@@ -19,5 +19,10 @@ namespace WinFormsSpil
             Form3 f3 = new Form3();
             f3.Show();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

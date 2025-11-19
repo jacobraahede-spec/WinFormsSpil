@@ -83,8 +83,9 @@
             button5.Name = "button5";
             button5.Size = new Size(150, 150);
             button5.TabIndex = 4;
-            button5.Text = "button5";
+            button5.Text = "PONG";
             button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
             // 
             // button6
             // 
