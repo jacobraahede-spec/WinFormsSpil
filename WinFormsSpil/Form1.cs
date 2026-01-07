@@ -7,22 +7,10 @@ namespace WinFormsSpil
             InitializeComponent();
 
         }
-
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click_1(object sender, EventArgs e)
         {
-            Form2 f2 = new Form2();
-            f2.Show();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Form3 f3 = new Form3();
-            f3.Show();
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-
+            Form4 f4 = new Form4();
+            f4.Show();
         }
     }
 }
