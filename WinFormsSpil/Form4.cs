@@ -34,7 +34,7 @@ namespace WinFormsSpil
             ball.Top -= ballYspeed;
             ball.Left -= ballXspeed;
 
-            this.Text = "Spiller Score " + SpillerScore + " -- Computer Score " + ComputerScore;
+            this.Text = "Spiller Point " + SpillerScore + " -- Computer Point " + ComputerScore;
             if (ball.Top < 0 || ball.Bottom > this.ClientSize.Height)
             {
                 ballYspeed = -ballYspeed;
@@ -153,7 +153,7 @@ namespace WinFormsSpil
         private void GameOver(string message)
         {
             SpilTimer.Stop();
-            MessageBox.Show(message, "Moo says: ");
+            MessageBox.Show(message, "Spillet er ovre -- spillet genstartes ");
             ComputerScore = 0;
             SpillerScore = 0;
             ballXspeed = ballYspeed = 4;
