@@ -22,5 +22,17 @@ namespace WinFormsSpil
             this.Close();
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form4 f4 = new Form4();
+            f4.Show();
+            this.Close();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

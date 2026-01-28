@@ -138,7 +138,10 @@ namespace WinFormsSpil
                 {
                     ballXspeed += -x;
                 }
-
+                if (ballXspeed == 0)
+                {
+                    Pic0ne.Location = new Point(20, 20);
+                }
                 if (ballYspeed <0)
                 {
                     ballYspeed = -y;
@@ -147,6 +150,11 @@ namespace WinFormsSpil
                 {
                     ballYspeed += y;
                 }
+                if (ballYspeed == 0)
+                {
+                    Pic0ne.Location = new Point(20, 20); 
+                }
+
             }
         }
 

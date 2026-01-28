@@ -9,8 +9,8 @@ namespace WinFormsSpil
         }
         private void button1_Click_1(object sender, EventArgs e)
         {
-            Form4 f4 = new Form4();
-            f4.Show();
+            Form2 f2 = new Form2();
+            f2.Show();
         }
     }
 }
